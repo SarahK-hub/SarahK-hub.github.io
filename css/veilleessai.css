@@ -1,0 +1,193 @@
+/* ============================ 
+   PAGE VEILLE – STYLE MODERNE
+============================= */
+
+body.page-veille {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    color: #444;
+}
+
+/* ===================================== 
+   HEADER PRINCIPAL (PAGE VEILLE) 
+   - Prend toute la largeur
+   - Gradient 
+===================================== */
+.global-page-header {
+    width: 100%;
+    background: linear-gradient(120deg, #1d2671, #c33764);
+    color: #ffffff;
+    padding: 120px 0 80px 0; /* plus de marge pour le menu fixe */
+    text-align: center;
+    margin-top: 0;
+}
+
+.global-page-header h2 {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+/* ===================================== 
+   SECTION CONTENU
+===================================== */
+.portfolio-single {
+    max-width: 900px;
+    margin: 80px auto 80px auto; /* espace sous menu */
+    padding: 60px 40px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+/* TITRES */
+.portfolio-single h3 {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1d2671;
+}
+
+/* PARAGRAPHES */
+.portfolio-single p {
+    font-size: 17px;
+    line-height: 1.8;
+    color: #444;
+    margin: 15px 0;
+}
+
+/* LISTES */
+.portfolio-single ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.portfolio-single ul li {
+    background: #f4f6fb;
+    padding: 12px 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.portfolio-single ul li:hover {
+    background: #e3e9f7;
+    transform: translateY(-3px);
+}
+
+/* IMAGE */
+.portfolio-single img {
+    display: block;
+    margin: 30px auto 50px auto;
+    max-width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* VEILLE CARDS */
+.veille-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
+    transition: 0.3s ease;
+}
+
+.veille-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.veille-card h4 {
+    margin-top: 20px;
+    font-size: 22px;
+    color: #1d2671;
+}
+
+.veille-card p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* BOUTONS ACCÉDER */
+.veille-btn, .btn-veille {
+    display: inline-block;
+    padding: 10px 22px;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(120deg, #1d2671, #c33764);
+    transition: 0.3s ease;
+    margin-top: 15px;
+}
+
+.veille-btn:hover, .btn-veille:hover {
+    opacity: 0.85;
+    color: white;
+}
+
+/* CONCLUSION STYLE */
+.veille-conclusion {
+    margin-top: 60px;
+    padding: 30px;
+    background: linear-gradient(120deg, #1d2671, #c33764);
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.veille-conclusion h4 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.veille-conclusion p {
+    color: #ffffff;
+}
+
+/* ===================================== 
+   FOOTER
+===================================== */
+#footer {
+    background: linear-gradient(120deg, #1d2671, #c33764);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+#footer p {
+    margin: 0;
+}
+/* IMAGE VEILLE */
+.veille-image {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.veille-image img {
+    width: 100%;
+    max-width: 750px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+    transition: 0.4s ease;
+}
+
+.veille-image img:hover {
+    transform: scale(1.03);
+}
+
+.image-caption {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* ===================================== 
+   NOTE IMPORTANTE
+   - Le menu (#top-bar) est géré par style.css (style principal)
+   - Aucune règle menu ici pour ne pas écraser le style
+   - Ainsi, menu texte cliquable, fond blanc, responsive
+===================================== */

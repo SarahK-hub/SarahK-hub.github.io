@@ -1,0 +1,211 @@
+/* ================================
+   VEILLE TECHNOLOGIQUE – BTS SLAM
+================================ */
+
+/* Général */
+body {
+    background-color: #f8f9fb;
+}
+
+section {
+    padding: 60px 0;
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    color: #333;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 16px;
+    color: #555;
+}
+
+/* Header page (titre veille) */
+.global-page-header {
+    background: linear-gradient(120deg, #1d2671, #c33764);
+    color: #fff;
+    padding: 80px 0;
+}
+
+.global-page-header h2 {
+    color: #fff;
+    font-size: 38px;
+}
+
+.global-page-header p {
+    color: #eee;
+    font-size: 18px;
+}
+
+/* Contenu principal */
+.portfolio-single {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: -40px;
+    padding: 50px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* Images */
+.portfolio-single img {
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Listes */
+.portfolio-single ul {
+    padding-left: 20px;
+}
+
+.portfolio-single ul li {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+/* Cartes de choix RA / Green IT */
+.veille-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 30px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+}
+
+.veille-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+.veille-card h4 {
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.veille-card p {
+    font-size: 15px;
+}
+
+/* Boutons */
+.btn-veille {
+    margin-top: 15px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.btn-ra {
+    background-color: #1d72f3;
+    color: #fff;
+    border: none;
+}
+
+.btn-ra:hover {
+    background-color: #1558b0;
+}
+
+.btn-green {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+}
+
+.btn-green:hover {
+    background-color: #27ae60;
+}
+
+/* Section conclusion */
+.veille-conclusion {
+    background: #f1f3f6;
+    border-left: 5px solid #1d72f3;
+    padding: 25px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+/* Footer */
+#footer {
+    margin-top: 60px;
+    background-color: #111;
+    color: #ccc;
+}
+
+#footer p {
+    color: #ccc;
+}
+/* Correction header fixed */
+.portfolio-single {
+    padding-top: 120px;
+}
+.portfolio-single h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.portfolio-single img {
+    margin: 30px auto;
+}
+/* Décalage à cause du header fixed */
+.portfolio-single {
+    padding-top: 120px;
+}
+
+/* Titre principal */
+.portfolio-single h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Images */
+.portfolio-single img {
+    display: block;
+    margin: 30px auto;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+/* Sous-titres */
+.portfolio-single h3 {
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Paragraphes */
+.portfolio-single p {
+    font-size: 16px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+/* Listes */
+.portfolio-single ul {
+    margin-left: 20px;
+}
+
+.portfolio-single ul li {
+    margin-bottom: 8px;
+}
+
+/* Conclusion */
+.veille-conclusion {
+    margin-top: 50px;
+    padding: 25px;
+    background: #f4f6f8;
+    border-left: 5px solid #1abc9c;
+}

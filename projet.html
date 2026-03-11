@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Projets - Mon Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/ionicons/ionicons.min.css">
+    <link rel="stylesheet" href="plugins/animate-css/animate.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
+    <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projet.css">
+<style>/* Styles spécifiques à la grille de projets */ 
+     .projects-grid { display: grid; 
+     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+     gap: 30px; margin-top: 50px; }
+      .project-card { position: relative; 
+      overflow: hidden;
+       border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+        transition: transform 0.3s, box-shadow 0.3s; } 
+        .project-card img { width: 100%; 
+        display: block;
+         transition: transform 0.5s; }
+          .project-card:hover img { transform: scale(1.1); 
+          } .project-info { position: absolute;
+           bottom: 0; 
+           left: 0;
+            right: 0;
+             background: rgba(0,0,0,0.7); 
+             color: #fff; padding: 20px; transform: translateY(100%);
+              transition: transform 0.3s; text-align: center; }
+               .project-card:hover .project-info { transform: translateY(0); 
+               } .project-info h3 { margin-bottom: 10px;
+                } .project-info p { font-size: 14px; 
+                margin-bottom: 15px;
+                 } .project-info a { color: #fff;
+                  text-decoration: none; 
+                  border: 1px solid #fff; 
+                  padding: 5px 15px; 
+                  border-radius: 5px; 
+                  transition: background 0.3s; }
+                   .project-info a:hover { background: #fff; color: #000; }
+                   </style>
+    
+</head>
+<body>
+
+<!-- MENU -->
+<header id="top-bar" class="navbar-fixed-top animated-header">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand">
+           <a href="index.html" class="brand-name">
+        Sarah <span>Taieb</span>
+         </a>
+       </div>
+        </div>
+        <nav class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="alternance.html">Alternance</a></li>
+                <li><a href="atelier.html">Atelier</a></li>
+                <li><a href="projet.html">Projets</a></li>
+                <li><a href="veille-technologique.html">Veilles</a></li>
+                <li><a href="tableau_de_competences.html">Tableau de compétences</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Page Header -->
+<section class="global-page-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h2>Projets</h2>
+                    <ol class="breadcrumb">
+                        <li><a href="index.html"><i class="ion-ios-home"></i> Home</a></li>
+                        <li class="active">Projets</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projets Section -->
+<section class="projects-section">
+    <div class="container">
+        <div class="projects-grid">
+
+            <!-- Projet 1 -->
+                <div class="project-card">
+            <img src="images/projet/mini-blog.jpg" alt="Mini Blog">
+
+            <div class="project-info">
+                <h3>Mini Blog PHP / SQL</h3>
+                <p>
+                    Application web permettant la gestion complète d’articles
+                    avec base de données.
+                </p>
+
+                <a href="projet-mini-blog.html" class="btn btn-primary">
+                    Voir le projet
+                </a>
+
+            </div>
+        </div>
+
+
+            <!-- Projet 2 -->
+            <div class="project-card wow fadeInUp" data-wow-delay=".4s">
+                <img src="images/projet/machine-a-sous.jpg" alt="machine à sous">
+                <div class="project-info">
+                    <h3>machine à sous</h3>
+                    <p>TP machine à sous avec rendu visuel casino et en manipulant le DOM</p>
+                    <a href="projet-machine-a-sous.html">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Projet 3 -->
+            <div class="project-card wow fadeInUp" data-wow-delay=".6s">
+                <img src="images/projet/ecommerce.png" alt="Mini site">
+                <div class="project-info">
+                    <h3>Mini site</h3>
+                    <p>Application web permettant la gestion complète d'un panier
+                    avec base de données.</p>
+                    <a href="projet-mini-site.html">Voir le projet</a>
+                </div>
+            </div>
+
+            <!-- Projet 4 -->
+            <div class="project-card wow fadeInUp" data-wow-delay=".8s">
+                <img src="images/projet/morpion img.png" alt="Morpion">
+                <div class="project-info">
+                    <h3>Morpion</h3>
+                    <p>Application console permettant la gestion d'un jeu de morpion.</p>
+                    <a href="projet-morpion.html">Voir le projet</a>
+                </div>
+            </div>
+               <!-- Projet 5 -->
+            <div class="project-card wow fadeInUp" data-wow-delay=".8s">
+                <img src="images/projet/todo.png" alt="Projet 5">
+                <div class="project-info">
+                    <h3>TO DO liste</h3>
+                    <p>application de gestion de tâches en C++.</p>
+                    <a href="projet-todo.html">Voir le projet</a>
+                </div>
+            </div>
+            <!-- Projet 6 -->
+                        <div class="project-card wow fadeInUp" data-wow-delay=".8s">
+                            <img src="images/projects/project-6.jpg" alt="Projet 6">
+                            <div class="project-info">
+                                <h3>Projet 6</h3>
+                                <p>Une description courte du projet 6 avec technologies et objectifs.</p>
+                                <a href="#">Voir Plus</a>
+                            </div>
+                        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer">
+    <div class="container">
+        <div class="col-md-8">
+            <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span> Design by <a href="http://www.Themefisher.com" target="_blank">Themefisher</a>.</p>
+        </div>
+        <div class="col-md-4">
+            <ul class="social">
+                <li><a href="#" class="Facebook"><i class="ion-social-facebook"></i></a></li>
+                <li><a href="#" class="Twitter"><i class="ion-social-twitter"></i></a></li>
+                <li><a href="#" class="Linkedin"><i class="ion-social-linkedin"></i></a></li>
+                <li><a href="#" class="Google Plus"><i class="ion-social-googleplus"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="plugins/jQurey/jquery.min.js"></script>
+<script src="plugins/form-validation/jquery.form.js"></script> 
+<script src="plugins/form-validation/jquery.validate.min.js"></script>
+<script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+<script src="plugins/wow-js/wow.min.js"></script>
+<script src="plugins/facncybox/jquery.fancybox.js"></script>
+<script src="js/main.js"></script>
+<div style="display:none;" id="miniBlog" class="project-popup">
+
+    <h2>Mini Blog – PHP / MySQL</h2>
+
+    <div class="project-popup-content">
+
+        <!-- Image principale -->
+        <img src="images/projet/mini-blog-1.png" alt="Mini Blog" class="project-image">
+
+        <p>
+            Application web développée en PHP avec base de données MySQL.
+            Elle permet la gestion complète d’articles via une interface
+            administrateur.
+        </p>
+
+        <h3>Fonctionnalités</h3>
+        <ul>
+            <li>Créer, modifier et supprimer des articles</li>
+            <li>Recherche d’articles</li>
+            <li>Ajout d’images</li>
+        </ul>
+
+        <h3>Technologies utilisées</h3>
+        <ul>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>HTML / CSS</li>
+        </ul>
+        
+
+        <a href="https://github.com/SarahK-hub/mini-blog-php" target="_blank" class="btn btn-primary">
+            Voir le code sur GitHub
+        </a>
+        </div>
+        <div class="project-gallery">
+            <img src="images/projet/mini-blog-1.png">
+            <img src="images/projet/mini-blog-2.png">
+            <img src="images/projet/mini-blog-3.png">
+            <img src="images/projet/mini-blog-4.png">
+        </div>
+
+    
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+/* =====================================
+   STYLE PORTFOLIO - VERSION BTS JURY
+===================================== */
+
+/* Header académique */
+.global-page-header {
+    background-color: #1e2a38;
+    padding: 70px 0;
+    color: #ffffff;
+    border-bottom: 4px solid #2c3e50;
+}
+
+.global-page-header h2 {
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.portfolio-meta {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #cfd8dc;
+}
+
+/* Section principale */
+.portfolio-single {
+    padding: 70px 0;
+    background-color: #f4f6f9;
+}
+
+/* Image projet */
+.portfolio-single-img img {
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    margin-bottom: 35px;
+}
+
+/* Bloc contenu type rapport */
+.portfolio-content {
+    background: #ffffff;
+    padding: 45px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+}
+
+/* Titres sections */
+.portfolio-content h3 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1e2a38;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 6px;
+}
+
+/* Paragraphes */
+.portfolio-content p {
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+}
+
+/* Listes */
+.portfolio-content ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.portfolio-content ul li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #333;
+}
+
+/* Mise en valeur compétences */
+.skills-box {
+    background-color: #eef2f7;
+    padding: 20px;
+    border-left: 4px solid #2c3e50;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.skills-box strong {
+    color: #1e2a38;
+}
+
+/* Bloc conclusion / impact */
+.impact-box {
+    background-color: #f0f4f8;
+    padding: 20px;
+    border: 1px solid #d6dde5;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .portfolio-content {
+        padding: 25px;
+    }
+
+    .global-page-header h2 {
+        font-size: 24px;
+    }
+}

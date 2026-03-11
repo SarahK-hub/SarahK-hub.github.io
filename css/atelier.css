@@ -1,0 +1,149 @@
+/* ============================ 
+   PAGE ATELIER – STYLE MODERNE
+============================= */
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f5f7fa;
+    color: #444;
+}
+
+/* ===================================== 
+   HERO HEADER (ATELIER)
+===================================== */
+.hero-section {
+    width: 100%;
+    background: linear-gradient(120deg, #4568dc, #b06ab3); /* ✅ Nouvelle couleur */
+    color: white;
+    padding: 120px 0 80px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: 800;
+}
+#top-bar {
+    background: #ffffff;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+/* ===================================== 
+   SECTION PORTFOLIO
+===================================== */
+.portfolio-section {
+    padding: 100px 0;
+}
+
+.portfolio-card {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 45px;
+    margin-bottom: 80px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+    transition: 0.4s ease;
+}
+
+.portfolio-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.12);
+}
+
+/* BADGES */
+.badge-tech {
+    display: inline-block;
+    background: linear-gradient(120deg,#4568dc,#b06ab3);
+    color: white;
+    padding: 6px 15px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin: 5px 5px 0 0;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+    margin-top: 40px;
+    padding-left: 30px;
+    border-left: 3px solid #4568dc;
+}
+
+.timeline-item {
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.timeline {
+    margin-top: 30px;
+    padding-left: 0;
+    border-left: none;
+}
+
+.timeline-item {
+    margin-bottom: 15px;
+    padding: 12px 18px;
+    background: #f4f6fb;
+    border-radius: 10px;
+}
+/* ESPACE ENTRE BADGES ET BOUTONS */
+.portfolio-card > div {
+    margin-bottom: 25px;
+}
+
+/* CONTENEUR DES BOUTONS */
+.portfolio-card .btn {
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+/* OPTION PLUS PRO : WRAPPER BOUTONS */
+.btn-custom {
+    margin-top: 20px;
+}
+
+/* FOOTER */
+#footer {
+    background: linear-gradient(120deg, #4568dc, #b06ab3); /* ✅ Même couleur que header */
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 60px;
+}/* ============================
+   IMAGES PROJETS
+============================ */
+
+/* Conteneur screenshot */
+.screenshot {
+    margin-top: 40px;
+}
+
+/* Image */
+.screenshot img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover; /* garde un ratio propre */
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+/* Hover effet premium */
+.screenshot img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 20px 45px rgba(0,0,0,0.15);
+}
+
+/* Lien autour de l'image */
+.screenshot a {
+    display: block;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+/* Version responsive mobile */
+@media (max-width: 768px) {
+    .screenshot img {
+        height: 220px;
+        margin-bottom: 20px;
+    }
+}

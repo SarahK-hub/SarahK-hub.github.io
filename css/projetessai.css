@@ -1,0 +1,156 @@
+/* =====================================
+   PAGE PROJET - STYLE MODERNE
+===================================== */
+
+/* HEADER PAGE */
+.global-page-header {
+    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding: 100px 0 60px;
+    text-align: center;
+}
+
+.global-page-header h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.portfolio-meta {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.portfolio-meta a {
+    color: #fff;
+    font-weight: 600;
+}
+
+.portfolio-meta a:hover {
+    text-decoration: underline;
+}
+
+
+/* SECTION PRINCIPALE */
+.portfolio-single {
+    padding: 80px 0;
+    background: #f5f7fa;
+}
+
+
+/* IMAGE PRINCIPALE AJUSTEE */
+.portfolio-single-img {
+    text-align: center;
+}
+
+.portfolio-single-img img {
+    width: 100%;
+    max-width: 750px;   /* limite la taille */
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 25px 60px rgba(0,0,0,0.15);
+    margin-bottom: 40px;
+    transition: 0.4s ease;
+}
+
+.portfolio-single-img img:hover {
+    transform: scale(1.02);
+}
+
+/* CONTENU TEXTE */
+.portfolio-content {
+    max-width: 850px;   /* largeur réduite */
+    margin: 0 auto 50px auto;  /* centre horizontalement */
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+}
+
+.portfolio-content h4 {
+    margin-top: 30px;
+    font-weight: 700;
+    color: #203a43;
+}
+
+.portfolio-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.portfolio-content ul li {
+    background: #f4f6fb;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+/* BLOCS TEXTE PLUS ETROITS */
+.portfolio-content p,
+.portfolio-content ul,
+.portfolio-content h4 {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* CAPTURES D'ECRAN */
+.portfolio-single .row img {
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    transition: 0.4s ease;
+}
+
+.portfolio-single .row img:hover {
+    transform: scale(1.05);
+}
+
+
+/* BOUTON GITHUB */
+.portfolio-single .btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    background: linear-gradient(120deg, #203a43, #2c5364);
+    color: white;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.portfolio-single .btn:hover {
+    opacity: 0.85;
+}
+
+
+/* CALL TO ACTION */
+#call-to-action {
+    background: linear-gradient(120deg, #203a43, #2c5364);
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#call-to-action .btn-contact {
+    border-radius: 30px;
+    padding: 12px 30px;
+    background: white;
+    color: #203a43;
+    font-weight: 600;
+}
+
+#call-to-action .btn-contact:hover {
+    background: #f0f0f0;
+}
+
+
+/* FOOTER CLEAN */
+#footer {
+    background: #111;
+    color: #aaa;
+    padding: 40px 0;
+}
+
+#footer a {
+    color: #fff;
+}

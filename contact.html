@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact – Mon Site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contactessais.css">
+ 
+</head>
+<body>
+
+<!-- MENU -->
+<header id="top-bar" class="navbar-fixed-top animated-header">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            <div class="navbar-brand">
+           <a href="index.html" class="brand-name">
+        Sarah <span>Taieb</span>
+         </a>
+       </div>
+        </div>
+        <nav class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="alternance.html">Alternance</a></li>
+                <li><a href="atelier.html">Atelier</a></li>
+                <li><a href="projet.html">Projets</a></li>
+                <li><a href="veille-technologique.html">Veilles</a></li>
+                <li><a href="tableau_de_competences.html">Tableau de compétences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero-section">
+    <div class="container">
+        <h1>Contact</h1>
+        <p>Vous pouvez m'envoyer un message via le formulaire ci-dessous.</p>
+    </div>
+</section>
+
+<!-- CONTENU CONTACT -->
+<section class="contact-content">
+    <div class="container">
+        <div class="row">
+            <!-- Formulaire -->
+            <div class="col-md-6">
+                
+                <div class="contact-form">
+                    <h2>Contactez-moi</h2>
+                <p>Je répondrai dans les plus brefs délais.</p>
+                    <form method="GET" action="mailto:taieb.sarah2004@gmail.com" enctype="text/plain">
+                        <input type="text" name="name" placeholder="Votre Nom" required>
+                        <input type="email" name="email" placeholder="Votre Email" required>
+                        <input type="text" name="subject" placeholder="Sujet" required>
+                        <textarea name="message" rows="6" placeholder="Message" required></textarea>
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </div>
+            </div>
+
+            <!-- Carte et infos -->
+            <div class="col-md-6">
+                <div class="map-area">
+                    <h2>Coordonnées</h2>
+                    <p>Euroforma – Formation professionnelle</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.7214000000003!2d2.3666508156742046!3d48.85948477928856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e1aa30ee95d%3A0x7b3f0de810f0220!2s145%20Rue%20Saint-Maur%2C%2075011%20Paris!5e0!3m2!1sfr!2sfr!4v1670000000000" allowfullscreen></iframe>
+                    <p>
+                        145 rue Saint Maur, 75011 Paris<br>
+                        Numéro UAI : 0756015F<br>
+                        Téléphone : 01-43-14-35-47<br>
+                        Site : <a href="https://euroforma.net" target="_blank">euroforma.net</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+    <div class="container text-center">
+        <p>© Portfolio Sarah – BTS SIO SLAM</p>
+    </div>
+</footer>
+
+<!-- JS -->
+<script src="plugins/jQurey/jquery.min.js"></script>
+<script src="plugins/bootstrap/bootstrap.min.js"></script>
+
+</body>
+</html>
