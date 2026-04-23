@@ -13,39 +13,47 @@
     <link rel="stylesheet" href="plugins/owl-carousel/owl.theme.css">
     <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/projet.css">
+    
 <style>/* Styles spécifiques à la grille de projets */ 
      .projects-grid { display: grid; 
      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
      gap: 30px; margin-top: 50px; }
-      .project-card { position: relative; 
-      overflow: hidden;
-       border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
-        transition: transform 0.3s, box-shadow 0.3s; } 
-        .project-card img { width: 100%; 
-        display: block;
-         transition: transform 0.5s; }
-          .project-card:hover img { transform: scale(1.1); 
-          } .project-info { position: absolute;
-           bottom: 0; 
-           left: 0;
-            right: 0;
-             background: rgba(0,0,0,0.7); 
-             color: #fff; padding: 20px; transform: translateY(100%);
-              transition: transform 0.3s; text-align: center; }
-               .project-card:hover .project-info { transform: translateY(0); 
-               } .project-info h3 { margin-bottom: 10px;
-                } .project-info p { font-size: 14px; 
-                margin-bottom: 15px;
-                 } .project-info a { color: #fff;
-                  text-decoration: none; 
-                  border: 1px solid #fff; 
-                  padding: 5px 15px; 
-                  border-radius: 5px; 
-                  transition: background 0.3s; }
-                   .project-info a:hover { background: #fff; color: #000; }
-                   </style>
+     .project-card { position: relative; 
+     overflow: hidden;
+     border-radius: 10px;
+     box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+     transition: transform 0.3s, box-shadow 0.3s; } 
+     .project-card img { width: 100%; 
+     display: block;
+    transition: transform 0.5s; }
+    .project-card:hover img { transform: scale(1.1); }
+    .project-card {
+    overflow: hidden;
+    }
+    .project-card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+     .project-info { position: absolute;
+     bottom: 0; 
+    left: 0;
+    right: 0;
+     background: rgba(0,0,0,0.7); 
+     color: #fff; padding: 20px; transform: translateY(100%);
+     transition: transform 0.3s; text-align: center; }
+    .project-card:hover .project-info { transform: translateY(0); 
+    } .project-info h3 { margin-bottom: 10px;
+    } .project-info p { font-size: 14px; 
+     margin-bottom: 15px;
+    } .project-info a { color: #fff;
+     text-decoration: none; 
+     border: 1px solid #fff; 
+     padding: 5px 15px; 
+    border-radius: 5px; 
+     transition: background 0.3s; }
+    .project-info a:hover { background: #fff; color: #000; }
+    </style>
     
 </head>
 <body>
@@ -100,7 +108,7 @@
 
             <!-- Projet 1 -->
                 <div class="project-card">
-            <img src="images/projet/mini-blog.jpg" alt="Mini Blog">
+            <img src="images/projet/blog.jpg" alt="Mini Blog">
 
             <div class="project-info">
                 <h3>Mini Blog PHP / SQL</h3>
@@ -123,46 +131,46 @@
                 <div class="project-info">
                     <h3>machine à sous</h3>
                     <p>TP machine à sous avec rendu visuel casino et en manipulant le DOM</p>
-                    <a href="projet-machine-a-sous.html">Voir le projet</a>
+                    <a href="projet-machine-a-sous.html" class="btn btn-primary">Voir le projet</a>
                 </div>
             </div>
 
             <!-- Projet 3 -->
             <div class="project-card wow fadeInUp" data-wow-delay=".6s">
-                <img src="images/projet/ecommerce.png" alt="Mini site">
+                <img src="images/projet/e-commerce.png" alt="Mini site">
                 <div class="project-info">
                     <h3>Mini site</h3>
                     <p>Application web permettant la gestion complète d'un panier
                     avec base de données.</p>
-                    <a href="projet-mini-site.html">Voir le projet</a>
+                    <a href="projet-mini-site.html" class="btn btn-primary">Voir le projet</a>
                 </div>
             </div>
 
             <!-- Projet 4 -->
             <div class="project-card wow fadeInUp" data-wow-delay=".8s">
-                <img src="images/projet/morpion img.png" alt="Morpion">
+                <img src="images/projet/morpion.jpg" alt="Morpion">
                 <div class="project-info">
                     <h3>Morpion</h3>
                     <p>Application console permettant la gestion d'un jeu de morpion.</p>
-                    <a href="projet-morpion.html">Voir le projet</a>
+                    <a href="projet-morpion.html" class="btn btn-primary">Voir le projet</a>
                 </div>
             </div>
                <!-- Projet 5 -->
             <div class="project-card wow fadeInUp" data-wow-delay=".8s">
-                <img src="images/projet/todo.png" alt="Projet 5">
+                <img src="images/projet/todo-list.jpg" alt="Projet 5">
                 <div class="project-info">
                     <h3>TO DO liste</h3>
                     <p>application de gestion de tâches en C++.</p>
-                    <a href="projet-todo.html">Voir le projet</a>
+                    <a href="projet-todo.html"class="btn btn-primary">Voir le projet</a>
                 </div>
             </div>
             <!-- Projet 6 -->
                         <div class="project-card wow fadeInUp" data-wow-delay=".8s">
-                            <img src="images/projects/project-6.jpg" alt="Projet 6">
+                            <img src="images/projet/cyber.png" alt="Projet 6">
                             <div class="project-info">
-                                <h3>Projet 6</h3>
+                                <h3>Projet cybersecurité</h3>
                                 <p>Une description courte du projet 6 avec technologies et objectifs.</p>
-                                <a href="#">Voir Plus</a>
+                                <a href="projet-cyber.html" class="btn btn-primary">Voir le projet</a>
                             </div>
                         </div>
 
