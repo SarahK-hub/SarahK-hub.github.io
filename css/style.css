@@ -1727,6 +1727,40 @@ px      68    160    252    */
 .section-space {
     margin-bottom: 80px;
 }
+/* =====================================
+   LOGO SARAH TAIEB
+===================================== */
+
+.brand-name {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1d2671 !important;
+    text-decoration: none;
+}
+
+.brand-name span {
+    color: #c33764 !important;
+}
+
+/* MENU FIXE AU SCROLL */
+
+.animated-header .navbar-brand a {
+    color: #1d2671 !important;
+}
+
+.animated-header .navbar-brand a span {
+    color: #c33764 !important;
+}
+
+/* Quand le menu change au scroll */
+
+.animated-header.navbar-fixed-top {
+    background: white;
+}
+
+.animated-header.navbar-fixed-top .navbar-brand a {
+    color: #1d2671 !important;
+}
 
 
 

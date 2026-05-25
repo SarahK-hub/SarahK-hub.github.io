@@ -6,7 +6,7 @@ body {
 }
 /* HEADER PAGE */
 .global-page-header {
-    background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+    background: linear-gradient(120deg, #63dbf0, #7ec7df, #33c78c);
     color: white;
     padding: 100px 0 60px;
     text-align: center;
@@ -37,7 +37,7 @@ body {
 /* SECTION PRINCIPALE */
 .portfolio-single {
     padding: 80px 0;
-    background: #f5f7fa;
+    background: hsla(150, 10%, 96%, 0.91);
 }
 
 
